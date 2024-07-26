@@ -3,7 +3,7 @@ int main(){
    int n;
    printf("Enter the size of both array : ");
    scanf("%d",&n);
-   int a[n],b[n];
+   int a[n],c[n];
    for(int i=0;i<n;i++)
    {
      printf("enter the members of array a :");
@@ -11,7 +11,7 @@ int main(){
    }
 
    for(int i=0;i<n;i++){
-     printf("enter the members of array b :");
+     printf("enter the members of array c :");
      scanf("%d",&b[i]);
    }
    for(int i=0;i<n;i++){
